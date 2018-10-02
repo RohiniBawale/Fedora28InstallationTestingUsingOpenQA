@@ -22,3 +22,9 @@ git branch -d <branchname>       -Delete the feature branch
 git pull        -Fetch and merge changes on the remote server to your working directory
 
 git log           -CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using
+
+git branch        -List branches (the asterisk denotes the current branch)
+
+git branch -a     -List all branches (local and remote)
+
+git push origin [branch name]        -Push a branch to your remote repository
